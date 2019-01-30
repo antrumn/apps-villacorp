@@ -10,7 +10,6 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.ProgressBar
-import android.widget.SearchView
 import anwarabdullahn.com.villacorp_apps.API.AnwAPI
 import anwarabdullahn.com.villacorp_apps.API.AnwCallback
 import anwarabdullahn.com.villacorp_apps.API.AnwError
@@ -20,9 +19,7 @@ import anwarabdullahn.com.villacorp_apps.R
 import anwarabdullahn.com.villacorp_apps.Utils.AnwLoadingHelper
 import com.r0adkll.slidr.Slidr
 import kotlinx.android.synthetic.main.activity_choose_security.*
-import kotlinx.android.synthetic.main.activity_dop.view.*
 import org.jetbrains.anko.find
-import org.jetbrains.anko.sdk25.coroutines.onQueryTextListener
 import org.jetbrains.anko.toast
 
 class ChooseSecurityActivity : AppCompatActivity() {
