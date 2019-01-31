@@ -27,11 +27,6 @@ class LoginActivity : AppCompatActivity() {
         val intent = Intent(this, DashboardActivity::class.java)
         val loadingScreen: DialogFragment = AnwLoadingHelper.getInstance()
 
-        if (AnwAPI.isLoggedIn()) {
-            startActivity(intent)
-            finish()
-        }
-
         loginBtn.setOnClickListener {
             Log.d("userText", usernameTxt.text.toString())
             if ("".equals(usernameTxt.text.trim().toString())) {

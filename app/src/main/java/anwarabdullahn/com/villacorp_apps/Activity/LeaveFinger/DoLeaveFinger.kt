@@ -67,7 +67,6 @@ class DoLeaveFinger : AppCompatActivity(), DatePickerDialog.OnDateSetListener {
         Slidr.attach(this)
 
         tanggalBtn.setOnClickListener {
-            dateCalled = 1
             showDatePicker()
         }
 
